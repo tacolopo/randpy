@@ -7,7 +7,7 @@ if not os.path.exists(folder_path):
     os.makedirs(folder_path)
 
 # Loop through PDFs from 967 to 1 in descending order
-for i in range(968, 0, -1):
+for i in range(967, 0, -1):
     if i > 99:
     
         url = f"https://www.grc.com/sn/sn-{i}.pdf"
